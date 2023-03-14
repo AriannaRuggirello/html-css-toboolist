@@ -6,13 +6,19 @@
 
 
 #container{
-    background-color: #F6F8F9;
+    background-color: #56a5cc;
+    
 }
 
 main{
-    background-color: white;
+    background-color: rgb(172, 27, 27);
+    margin: 0 20%;
+    border-radius: 5px;
+    padding: 20px;
+    border-bottom: 1px solid white;
 }
 
+/* start header */
 header{
     margin: 10px 20px;
     
@@ -26,3 +32,28 @@ header{
     font-size: 40px;
     font-weight: bold;  
 }
+
+/* end header */
+
+/* start button */
+button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: medium; 
+    margin: 3px;
+
+}
+
+.button-task{
+    background-color: #56a5cc;    
+    color: white;
+    border-color: #56a5cc;
+}
+
+.button-section{
+    background-color: white;    
+    color: grey;
+    border-color: grey;
+}
+
+/* end button */
