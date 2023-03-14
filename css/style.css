@@ -4,9 +4,13 @@
     box-sizing: border-box; 
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 #container{
-    background-color: #56a5cc;
+    background-color: lightgrey;
+    padding: 50px 0 10px;
     
 }
 
@@ -14,15 +18,18 @@ main{
     background-color: white;
     margin: 0 20%;
     border-radius: 5px;
-    padding: 20px;
-    border-bottom:2px solid #56a5cc ;
+    padding: 15px;
+    border-bottom:2px solid lightgray ;
     
+}
+
+.title-space{
+    margin: 50px 30px 0;
 }
 
 /* start header */
 header{
-    margin: 10px 20px;
-    
+    margin: 10px 20px;    
 }
 
 #logo{
@@ -31,7 +38,8 @@ header{
 
 #logo-txt{
     font-size: 40px;
-    font-weight: bold;  
+    font-weight: bold;
+    vertical-align: middle;  
 }
 
 /* end header */
@@ -71,7 +79,8 @@ h2::before{
     color: rgb(83, 82, 82);
 }
 h2{
-    color: rgb(83, 82, 82)
+    color: rgb(83, 82, 82);
+    font-weight: bold;
 }
 
 /* check conteiner */
@@ -79,7 +88,8 @@ h2{
     content: '\2713';
     color: green; 
     border: 1px solid green;
-    border-radius: 2px;   
+    border-radius: 20px;   
+    padding: 5px;
 }
 
 /* cross container */
@@ -93,7 +103,7 @@ h2{
 
 /*  general labels features */
 .space{
-    margin: 15px;    
+    margin: 15px ;    
 }
 
 .label-layout{
