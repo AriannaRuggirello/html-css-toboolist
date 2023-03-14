@@ -11,11 +11,12 @@
 }
 
 main{
-    background-color: rgb(172, 27, 27);
+    background-color: white;
     margin: 0 20%;
     border-radius: 5px;
     padding: 20px;
-    border-bottom: 1px solid white;
+    border-bottom:2px solid #56a5cc ;
+    
 }
 
 /* start header */
@@ -36,6 +37,11 @@ header{
 /* end header */
 
 /* start button */
+.main-button{
+    border-bottom: 1px solid white;
+
+}
+
 button{
     padding: 10px;
     border-radius: 5px;
@@ -57,3 +63,28 @@ button{
 }
 
 /* end button */
+
+/* start second section */
+
+
+h2::before{
+    content: '\25BC';
+    color: rgb(83, 82, 82);
+}
+h2{
+    color: rgb(83, 82, 82)
+}
+
+.check-entity::before{
+    content: '\2713';
+    color: green; 
+    border: 1px solid green;
+    border-radius: 2px;   
+}
+
+.editorial-label{
+    background-color: #45ABE9;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
