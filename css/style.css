@@ -64,8 +64,7 @@ button{
 
 /* end button */
 
-/* start second section */
-
+/* title section */
 
 h2::before{
     content: '\25BC';
@@ -74,6 +73,7 @@ h2::before{
 h2{
     color: rgb(83, 82, 82)
 }
+
 /* check conteiner */
 .check-entity::before{
     content: '\2713';
@@ -81,7 +81,9 @@ h2{
     border: 1px solid green;
     border-radius: 2px;   
 }
+
 /* cross container */
+
 .cross-entity::before{
     content: '\2717';
     color: red; 
@@ -89,39 +91,51 @@ h2{
     border-radius: 2px;   
 }
 
-/* different labels */
+/*  general labels features */
 .space{
     margin: 15px;    
 }
 
-.small-txt{
+.label-layout{
     font-size: 12px;
+    padding: 5px;
+    border-radius: 10px;
 }
+
+ /* specific labels features */
 
 .editorial-label{
     background-color: #45ABE9;
     color: white;
-    padding: 5px;
-    border-radius: 10px;
+   
 }
 
 .goals-label{
     background-color: #9C72E4;
     color: white;
-    padding: 5px;
-    border-radius: 10px;
+   
 }
 
 .recruiting-label{
     background-color: #64C0A8;
     color: white;
-    padding: 5px;
-    border-radius: 10px;
+   
 }
 
 .mobile-label{
     background-color: #F29E33;
     color: white;
-    padding: 5px;
-    border-radius: 10px;
+  
+}
+
+.website-label{
+    background-color: #D863A0;
+    color: white;
+   
+}
+
+.sales-label{
+    background-color: #B0C926;
+    color: white;
+    
 }
