@@ -3,3 +3,26 @@
     padding: 0;
     box-sizing: border-box; 
 }
+
+
+#container{
+    background-color: #F6F8F9;
+}
+
+main{
+    background-color: white;
+}
+
+header{
+    margin: 10px 20px;
+    
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+#logo-txt{
+    font-size: 40px;
+    font-weight: bold;  
+}
